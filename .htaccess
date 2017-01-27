@@ -1,3 +1,5 @@
+Options +FollowSymLinks
+Redirect /test.html http://7d3.ru
 <ifModule mod_expires.c>
 
 # Add correct content-type for fonts
