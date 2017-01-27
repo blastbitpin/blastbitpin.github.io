@@ -9,3 +9,6 @@ ExpiresDefault "access plus 1 year"
 BrowserMatch "MSIE" force-no-vary
 BrowserMatch "Mozilla/4.[0-9]{2}" force-no-vary
 </IfModule>
+<IfModule mod_headers.c>
+    Header append Cache-Control "public, no-transform"
+</IfModule>
