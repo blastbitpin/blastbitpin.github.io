@@ -66,17 +66,6 @@ Header add "Cache-Control" "max-age=315360000"
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
       </footer>
  
-<script>
-		function loadCSS(hf) {
-			var ms=document.createElement("link");ms.rel="stylesheet";
-			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
-		}
-		loadCSS("css/style.css");              //Header Styles (compress & paste to header after release)
-	</script>
-	  	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
-
-<script>!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
 
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
