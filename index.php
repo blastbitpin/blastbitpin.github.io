@@ -6,7 +6,7 @@
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
 <?php 
-	  Header add "Expires" "Mon, 29 Jan 2014 14:00:00 GMT"
+	  Header add "Expires" "Mon, 29 Jan 2014 15:00:00 GMT"
 Header add "Cache-Control" "max-age=315360000"
 
 	  ?>
