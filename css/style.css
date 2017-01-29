@@ -22,10 +22,9 @@ body { background: #fff; }
 header, footer,.container, .content { max-width: 45em; margin: 0 auto; }
 
 header { padding: 0 0.5em; color: #C90B0B; }
-header  a img {border-radius: 50px; float: left; padding:0px; }
-header  p{ font-size:1.5em; font-weight: bold; padding-left: 0.5em; padding-right: 2em;}
+header img { border-radius: 40px; float: left; }
+header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
 header p span { font-size: 0.8em; font-weight: normal;}
-header {display: inline-block; }
 .hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
